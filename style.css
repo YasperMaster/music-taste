@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: brown;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-title {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    display: flex;
+}
+
+.top-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 750px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.top-links {
+    display: flex;
+    align-self: flex-end;
+}
+
+.top-img {
+    width: 170px;
+    height: 170px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: underline;
+    color: #F9FAF8;
+    margin-left: 20px;
+}
+
+.top-title {
+    font-size: 48px;
+    width: 400px;
+    color: #F9FAF8;
+}
+
+.description {
+    font-size: 14px;
+    text-align: left;
+    color: #F9FAF8;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 300px;
+    gap: 30px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 30px;
+}
+
+.main-title {
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.caption {
+    display: block;
+    text-align: center;
+}
+
+.card-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+    border: 3px solid brown;
+}
